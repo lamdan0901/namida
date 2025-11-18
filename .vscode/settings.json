@@ -1,34 +1,23 @@
 {
-  "dart.lineLength": 180,
-  "java.configuration.updateBuildConfiguration": "interactive",
-  "workbench.colorCustomizations": {
-    "[GitHub Dark]": {
-      "editor.background": "#1e1c25",
-      "editorSuggestWidget.background": "#201e1e"
-    },
-    "activityBar.activeBackground": "#1a1a1a",
-    "activityBar.background": "#1a1a1a",
-    "activityBar.foreground": "#e7e7e7",
-    "activityBar.inactiveForeground": "#e7e7e799",
-    "activityBarBadge.background": "#606020",
-    "activityBarBadge.foreground": "#e7e7e7",
-    "commandCenter.border": "#e7e7e799",
-    "sash.hoverBorder": "#1a1a1a",
-    "statusBar.background": "#000000",
-    "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#1a1a1a",
-    "statusBarItem.remoteBackground": "#000000",
-    "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#000000",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#00000099",
-    "titleBar.inactiveForeground": "#e7e7e799"
+  "search.exclude": {
+    "**/.sst": true
   },
-  "peacock.color": "#000000",
-  "commandOnAllFiles.commands": {
-    "Sort All Imports": {
-      "command": "dartimportsorter.sortImports",
-      "includeFileExtensions": [".dart"]
-    }
+  "task.allowAutomaticTasks": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "debug.openDebug": "neverOpen",
+  "problems.autoReveal": true,
+  "terminal.integrated.hideOnStartup": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.inheritEnv": false,
+  "jestrunner.configPath": "jest.unit.config.cjs",
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
   }
 }

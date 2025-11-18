@@ -21,10 +21,8 @@ migrate_working_dir/
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -62,10 +60,8 @@ windows/flutter/generated_**
 
 
 
-# The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
-#.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -114,7 +110,6 @@ migrate_working_dir/
 .classpath
 .project
 .settings/
-.vscode/*
 
 # Flutter repo-specific
 /bin/cache/
@@ -228,7 +223,6 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
-!.vscode/settings.json
 
 
 *.freezed.dart
@@ -244,3 +238,7 @@ build
 android/app/repo/com/local/ffmpeg-kit/min_binary
 
 pubspec_overrides.yaml
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
